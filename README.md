@@ -36,3 +36,8 @@ project/
 - แปลงเวลา `trade_time` เป็น format `YYYY-MM-DD HH:MM:SS`
 - ทำให้ string column เช่น `side`  เป็น uppercase
 - ตรวจสอบ foreign key: client_id ต้องอยู่ใน clients, instrument_id ต้องอยู่ใน instruments
+
+## How to Run
+เพิ่มไฟล์เข้า 📁input และ ผลลัพธ์ที่ 📁output
+cd src
+python main.py
